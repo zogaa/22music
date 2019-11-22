@@ -14,7 +14,7 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
 });
-const prefix = "3"
+const prefix = "!"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
@@ -340,4 +340,4 @@ function play(guild, song) {
 }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login("NjQ3Mzg2NzExNDk1ODAyODkx.Xde8BQ.ctFhdf1JGwZAO4FvQZVtZ4FXuDw");
